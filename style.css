@@ -1,0 +1,59 @@
+html,
+body {
+  display: inline;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+*, html {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+img {
+  border-radius: 3px;
+}
+
+a {
+  transition: opacity .25s ease-in-out;
+  text-decoration: none;
+}
+
+.grid:hover a {
+  opacity: 0.75;
+}
+
+.grid:hover a:not(:hover) {
+  opacity: 0; 
+}
+
+.grid:hover a:hover {
+  opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  flex: 1;
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contact {
+  text-align: left;
+  margin-top: 0px;
+}
